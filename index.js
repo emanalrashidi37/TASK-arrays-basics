@@ -20,7 +20,7 @@ hobbies.push("danceing");
 console.log(hobbies[hobbies.length-1]);
 
 //Print the length of array hobbies
-console.log(hobbies.length-1);
+console.log(hobbies.length);
 
 //Remove the last 2 hobbies from array hobbies
 //will remove reading&dancing
@@ -28,12 +28,11 @@ hobbies.splice(-1,1);
 hobbies.splice(-1,1);
 
 //Print length of hobbies
-console.log(hobbies.length-1);
+console.log(hobbies.length);
 
 //Print every element in hobbies in a single line
-console.log(hobbies);
-var hobbies = ['coding' , 'ridding a horse' , 'running' , 'online shopping' , 'cooking'];
-for (var i=0; i<hobbies.length; i++){
+hobbies = ['coding' , 'ridding a horse' , 'running' , 'online shopping' , 'cooking'];
+for (i=0; i<hobbies.length; i++){
     console.log(hobbies[i]);
 }
 
